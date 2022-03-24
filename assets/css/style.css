@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/*para dar formato al navegador*/
+
+nav {
+  width: 95%;
+  margin: 5px auto;
+  background-color: #add2b0;
+  text-align:center;
+}
+
+/*para quitar viñetas*/
+nav ul {
+  list-style: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulos {
+  font-size: 3em;
+  color: #006400;
+  margin: 50px 50px;
+  text-align: center;
+}
+
+.tituloSecundario {
+  font-size: 2em;
+  color: #2e9b2e;
+  margin: 50px 50px;
+  text-align: center;
+
+}
+
+                          /*---index---*/
+main .info {
+  width: 85%;
+}
+
+.info img {
+  width: 500px;
+  height: 350px;
+  
+}
+
+.menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+
+.menu>li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu>li>a {
+  display: flex;
+  text-decoration: none;
+  padding: 15px 10px;
+  color: chocolate;
+}
+
+.subMenu {
+  position: absolute;
+  width: 100%;
+  display: none;
+  background-color: #e6f7e7;
+  min-width: 140px;
+}
+
+.menu>li>a:hover {
+  color: blanchedalmond;
+}
+
+.menu li:hover .subMenu {
+  display: block;
+}
+
+.subMenu li a {
+  display: block;
+  padding: 7px;
+}
+
+
+                      /*MAIN*/
+
+.info {
+  width: 90%;
+  max-width: 1600px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  align-items: center;
+
+  justify-content:center;
+}
+
+
+.infoSuculenta {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 5px 30px;
+}
+
+
+.habitat {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: 5px 30px;
+}
+
+                    /*TABLA*/
+.familiaSuculentas {
+  font-size: 40px;
+  color: darkseagreen;
+  margin: 5px 30px;
+  text-align: center;
+}
+.familia {
+  margin: 150px auto;
+  width: 600px;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+thead {
+  background-color: rgb(146, 228, 135);
+  border-bottom: solid 5px rgb(235, 241, 235);
+  color: rgb(50, 55, 59);
+}
+
+.pie {
+  width: 95%;
+  margin: 5px auto;
+  background-color: rgba(173, 210, 176, 1);
+  border: 2px solid rgb(192, 133, 23);
+}
+
+                    /*---TIPOS---*/
+.caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto 100px;
+  column-gap: 1em;
+  margin: 20px 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+                    /*---CONTACTO---*/
+.contacto, .form-floating, .enviar{
+  margin: 25px 50px;
+}
+
+
+                /*---RESPONSIVE---*/
+
+@media screen and (max-width: 768px) {
+  main, .info, .caracteristicas{
+    display: flex;
+    flex-direction: column;
+  }
+  table, .familia{
+    width: 95vw;   /*vw, sirve para el ancho de las pantallas*/
+  }
+  picture img{
+    max-width: 100%;
+  }
+  .imagen img{
+    max-width: 100%;
+  }
+  }
+  
