@@ -11,9 +11,9 @@ body {
 /*para dar formato al navegador*/
 
 nav {
-  width: 95%;
-  margin: 5px auto;
-  background-color: #add2b0;
+  width: 90%;
+  margin: 15px auto;
+  background-image: linear-gradient(#65ac6a,#add2b0);
   text-align:center;
 }
 
@@ -21,6 +21,7 @@ nav {
 nav ul {
   list-style: none;
 }
+
 
 main {
   display: flex;
@@ -51,7 +52,7 @@ main .info {
 .info img {
   width: 500px;
   height: 350px;
-  
+  align-items: center;
 }
 
 .menu {
@@ -70,7 +71,9 @@ main .info {
   padding: 15px 10px;
   color: chocolate;
 }
-
+.menu>a{
+  text-decoration: none;
+}
 .subMenu {
   position: absolute;
   width: 100%;
@@ -78,7 +81,10 @@ main .info {
   background-color: #e6f7e7;
   min-width: 140px;
 }
-
+.subMenu>li>a{
+  text-decoration: none;
+  text-align: left;
+}
 .menu>li>a:hover {
   color: blanchedalmond;
 }
