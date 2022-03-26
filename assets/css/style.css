@@ -13,15 +13,14 @@ body {
 nav {
   width: 90%;
   margin: 15px auto;
-  background-image: linear-gradient(#65ac6a,#add2b0);
-  text-align:center;
+  background-image: linear-gradient(#65ac6a, #add2b0);
+  text-align: center;
 }
 
 /*para quitar viñetas*/
 nav ul {
   list-style: none;
 }
-
 
 main {
   display: flex;
@@ -34,6 +33,19 @@ main {
   color: #006400;
   margin: 50px 50px;
   text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .tituloSecundario {
@@ -41,10 +53,14 @@ main {
   color: #2e9b2e;
   margin: 50px 50px;
   text-align: center;
-
+}
+.tituloTercero {
+  font-size: 20px;
+  color: #a7282e;
+  margin: 50px auto;
 }
 
-                          /*---index---*/
+/*---index---*/
 main .info {
   width: 85%;
 }
@@ -60,18 +76,18 @@ main .info {
   font-size: 22px;
 }
 
-.menu>li {
+.menu > li {
   position: relative;
   display: inline-block;
 }
 
-.menu>li>a {
+.menu > li > a {
   display: flex;
   text-decoration: none;
   padding: 15px 10px;
   color: chocolate;
 }
-.menu>a{
+.menu > a {
   text-decoration: none;
 }
 .subMenu {
@@ -81,11 +97,11 @@ main .info {
   background-color: #e6f7e7;
   min-width: 140px;
 }
-.subMenu>li>a{
+.subMenu > li > a {
   text-decoration: none;
   text-align: left;
 }
-.menu>li>a:hover {
+.menu > li > a:hover {
   color: blanchedalmond;
 }
 
@@ -97,9 +113,15 @@ main .info {
   display: block;
   padding: 7px;
 }
+/*animacion icono home*/
+.iconoHome {
+  transition: transform 3s ease-in-out;
+}
+.iconoHome:hover {
+  transform: rotate(70deg) scale(1);
+}
 
-
-                      /*MAIN*/
+/*MAIN*/
 
 .info {
   width: 90%;
@@ -110,24 +132,22 @@ main .info {
   grid-template-rows: repeat(3, auto);
   align-items: center;
 
-  justify-content:center;
+  justify-content: center;
 }
-
 
 .infoSuculenta {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   margin: 5px 30px;
 }
-
 
 .habitat {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   margin: 5px 30px;
 }
 
-                    /*TABLA*/
+/*TABLA*/
 .familiaSuculentas {
   font-size: 40px;
   color: darkseagreen;
@@ -164,41 +184,61 @@ thead {
   border: 2px solid rgb(192, 133, 23);
 }
 
-                    /*---TIPOS---*/
+/*---TIPOS---*/
 .caracteristicas {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-row: auto 100px;
   column-gap: 1em;
   margin: 20px 40px;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
 
+.conTallo,
+.sinTallo,
+.cactus,
+.colgantes {
+  margin: 20px 40px;
+  font-size: 22px;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: start;
+}
+/*---VIDEOS---*/
 
-                    /*---CONTACTO---*/
-.contacto, .form-floating, .enviar{
+
+/*---CONTACTO---*/
+.contacto,
+.form-floating,
+.enviar {
   margin: 25px 50px;
+  gap: 2rem;
+  border-radius: 5px;
+}
+.enviar {
+  border-radius: 2px;
 }
 
-
-                /*---RESPONSIVE---*/
+/*---RESPONSIVE---*/
 
 @media screen and (max-width: 768px) {
-  main, .info, .caracteristicas{
+  main,
+  .info,
+  .caracteristicas {
     display: flex;
     flex-direction: column;
   }
-  table, .familia{
-    width: 95vw;   /*vw, sirve para el ancho de las pantallas*/
+  table,
+  .familia {
+    width: 95vw; /*vw, sirve para el ancho de las pantallas*/
   }
-  picture img{
+  picture img {
     max-width: 100%;
   }
-  .imagen img{
+  .imagen img {
     max-width: 100%;
   }
-  }
-  
+}
