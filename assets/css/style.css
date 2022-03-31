@@ -8,6 +8,7 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
+/*-------NAVEGADOR-------*/
 /*para dar formato al navegador*/
 
 nav {
@@ -15,6 +16,9 @@ nav {
   margin: 15px auto;
   background-image: linear-gradient(#65ac6a, #add2b0);
   text-align: center;
+  /*position: fixed;
+  top: 0;
+  left: 15px;*/
 }
 
 /*para quitar viñetas*/
@@ -22,11 +26,66 @@ nav ul {
   list-style: none;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
 }
+
+.menu>li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu>li>a {
+  display: flex;
+  text-decoration: none;
+  padding: 10px 10px;
+  color: chocolate;
+}
+
+.menu>a {
+  text-decoration: none;
+}
+
+.subMenu {
+  position: absolute;
+  width: 100%;
+  display: none;
+  background-color: #e6f7e7;
+  min-width: 140px;
+}
+
+.subMenu>li>a {
+  text-decoration: none;
+  text-align: start;
+}
+
+.menu>li>a:hover {
+  color: blanchedalmond;
+}
+
+.menu li:hover .subMenu {
+  display: block;
+}
+
+.subMenu li a {
+  display: block;
+  padding: 7px;
+}
+
+/*animacion icono home*/
+.iconoHome {
+  transition: transform 3s ease-in-out;
+}
+
+.iconoHome:hover {
+  transform: rotate(70deg) scale(1);
+}
+
+
+
+/*------TITULOS------*/
+
 
 .titulos {
   font-size: 3em;
@@ -36,6 +95,7 @@ main {
   animation-duration: 3s;
   animation-name: slidein;
 }
+
 @keyframes slidein {
   from {
     margin-left: 100%;
@@ -54,15 +114,32 @@ main {
   margin: 50px 50px;
   text-align: center;
 }
+
 .tituloTercero {
-  font-size: 20px;
+  font-size: 23px;
   color: #a7282e;
   margin: 50px auto;
 }
 
-/*---index---*/
+.tituloCuarto{
+  font-size: 19px;
+  color: #284aa7;
+  margin: 50px auto;
+}
+/*------INDEX-------*/
+
+
+
+/*---MAIN---*/
+
 main .info {
   width: 85%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info img {
@@ -70,58 +147,6 @@ main .info {
   height: 350px;
   align-items: center;
 }
-
-.menu {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 22px;
-}
-
-.menu > li {
-  position: relative;
-  display: inline-block;
-}
-
-.menu > li > a {
-  display: flex;
-  text-decoration: none;
-  padding: 15px 10px;
-  color: chocolate;
-}
-.menu > a {
-  text-decoration: none;
-}
-.subMenu {
-  position: absolute;
-  width: 100%;
-  display: none;
-  background-color: #e6f7e7;
-  min-width: 140px;
-}
-.subMenu > li > a {
-  text-decoration: none;
-  text-align: left;
-}
-.menu > li > a:hover {
-  color: blanchedalmond;
-}
-
-.menu li:hover .subMenu {
-  display: block;
-}
-
-.subMenu li a {
-  display: block;
-  padding: 7px;
-}
-/*animacion icono home*/
-.iconoHome {
-  transition: transform 3s ease-in-out;
-}
-.iconoHome:hover {
-  transform: rotate(70deg) scale(1);
-}
-
-/*MAIN*/
 
 .info {
   width: 90%;
@@ -147,13 +172,14 @@ main .info {
   margin: 5px 30px;
 }
 
-/*TABLA*/
+/*---TABLA---*/
 .familiaSuculentas {
   font-size: 40px;
   color: darkseagreen;
   margin: 5px 30px;
   text-align: center;
 }
+
 .familia {
   margin: 150px auto;
   width: 600px;
@@ -191,6 +217,8 @@ thead {
   grid-row: auto 100px;
   column-gap: 1em;
   margin: 20px 40px;
+  padding: 60px ;
+
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -207,13 +235,53 @@ thead {
   align-items: center;
   justify-content: start;
 }
+
+/*---CUIDADOS---*/
+.intro{
+  margin: 20px 40px;
+  padding: 60px ;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/*---GALERIA---*/
+.galery{
+  margin: 40px 40px;
+  padding: 60px ;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
 /*---LIBROS---*/
-.card{
+
+.books{
+  margin: 40px 40px;
+  padding: 60px ;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.card {
   margin: 20px 40px;
 
 }
 
+/*---VIDEOS---*/
 
+.video{
+  margin: 40px 40px;
+  padding: 60px ;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+}
 
 /*---CONTACTO---*/
 .contacto,
@@ -223,6 +291,7 @@ thead {
   gap: 2rem;
   border-radius: 5px;
 }
+
 .enviar {
   border-radius: 2px;
 }
@@ -230,19 +299,24 @@ thead {
 /*---RESPONSIVE---*/
 
 @media screen and (max-width: 768px) {
+
   main,
   .info,
   .caracteristicas {
     display: flex;
     flex-direction: column;
   }
+
   table,
   .familia {
-    width: 95vw; /*vw, sirve para el ancho de las pantallas*/
+    width: 95vw;
+    /*vw, sirve para el ancho de las pantallas*/
   }
+
   picture img {
     max-width: 100%;
   }
+
   .imagen img {
     max-width: 100%;
   }
