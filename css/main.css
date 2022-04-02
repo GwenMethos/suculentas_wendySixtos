@@ -1,0 +1,232 @@
+/*IMPORTS*/
+/*MISC*/
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f4fcd2; }
+
+.titulos {
+  font-size: 3em;
+  color: #006400;
+  margin: 50px 50px;
+  text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+.tituloSecundario {
+  font-size: 2em;
+  color: #2e9b2e;
+  margin: 50px 50px;
+  text-align: center; }
+
+.tituloTercero {
+  font-size: 23px;
+  color: #a7282e;
+  margin: 50px auto; }
+
+.tituloCuarto {
+  font-size: 19px;
+  color: #284aa7;
+  margin: 50px auto; }
+
+.iconoHome {
+  transition: transform 3s ease-in-out; }
+
+.iconoHome:hover {
+  transform: rotate(70deg) scale(1); }
+
+.titulos {
+  animation-name: slidein; }
+
+/*PARTIAL*/
+nav {
+  width: 90%;
+  margin: 15px auto;
+  background-image: linear-gradient(#65ac6a, #add2b0);
+  text-align: center; }
+  nav ul {
+    list-style: none; }
+
+.menu {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px; }
+  .menu > a {
+    text-decoration: none; }
+  .menu > li {
+    position: relative;
+    display: inline-block; }
+    .menu > li > a {
+      display: flex;
+      text-decoration: none;
+      padding: 10px 10px;
+      color: chocolate; }
+      > .menu > li > a:hover {
+        color: blanchedalmond; }
+    .menu > li:hover .subMenu {
+      display: block; }
+  .menu .subMenu {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #e6f7e7;
+    min-width: 140px; }
+    .menu .subMenu > li > a {
+      text-decoration: none;
+      text-align: start; }
+      .menu .subMenu > li > a a {
+        display: block;
+        padding: 7px; }
+
+.pie {
+  width: 95%;
+  margin: 5px auto;
+  background-color: #add2b0;
+  border: 2px solid #c08517; }
+
+/*VIEWS*/
+.contacto,
+.form-floating,
+.enviar {
+  margin: 25px 50px;
+  gap: 2rem;
+  border-radius: 5px; }
+
+.enviar {
+  border-radius: 2px; }
+
+.caracteristicas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: auto 100px;
+  column-gap: 1em;
+  margin: 20px 40px;
+  padding: 60px;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+
+.conTallo,
+.sinTallo,
+.cactus,
+.colgantes {
+  margin: 20px 40px;
+  font-size: 22px;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: start; }
+
+.intro {
+  margin: 20px 40px;
+  padding: 60px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+
+.galery {
+  margin: 40px 40px;
+  padding: 60px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+
+main {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.info {
+  width: 90%;
+  max-width: 1600px;
+  margin: 15px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center; }
+  .info img {
+    width: 500px;
+    height: 350px;
+    align-items: center; }
+  .info .infoSuculenta {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    margin: 5px 30px; }
+  .info .habitat {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 20px;
+    margin: 5px 30px; }
+
+.familiaSuculentas {
+  font-size: 40px;
+  color: darkseagreen;
+  margin: 5px 30px;
+  text-align: center; }
+
+.familia {
+  margin: 150px auto;
+  width: 600px; }
+
+table {
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse; }
+
+th,
+td {
+  padding: 20px; }
+
+thead {
+  background-color: #92e487;
+  border-bottom: solid 5px #ebf1eb;
+  color: #32373b; }
+
+@media screen and (max-width: 768px) {
+  main,
+  .info,
+  .caracteristicas {
+    display: flex;
+    flex-direction: column; }
+  table,
+  .familia {
+    width: 95vw;
+    /*vw, sirve para el ancho de las pantallas*/ }
+  picture img {
+    max-width: 100%; }
+  .imagen img {
+    max-width: 100%; } }
+
+.books {
+  margin: 40px 40px;
+  padding: 60px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start; }
+
+.card {
+  margin: 20px 40px; }
+
+.video {
+  margin: 40px 40px;
+  padding: 60px;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: start; }

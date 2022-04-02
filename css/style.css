@@ -9,7 +9,8 @@ body {
 }
 
 /*-------NAVEGADOR-------*/
-/*para dar formato al navegador*/
+
+/*
 
 nav {
   width: 90%;
@@ -18,13 +19,16 @@ nav {
   text-align: center;
   /*position: fixed;
   top: 0;
-  left: 15px;*/
+  left: 15px;
 }
 
-/*para quitar viñetas*/
+-------para quitar viñetas-----
 nav ul {
   list-style: none;
 }
+
+
+-----para dar formato al navegador------
 
 .menu {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -47,6 +51,14 @@ nav ul {
   text-decoration: none;
 }
 
+.menu>li>a:hover {
+  color: blanchedalmond;
+}
+
+.menu li:hover .subMenu {
+  display: block;
+}
+
 .subMenu {
   position: absolute;
   width: 100%;
@@ -60,20 +72,35 @@ nav ul {
   text-align: start;
 }
 
-.menu>li>a:hover {
-  color: blanchedalmond;
-}
-
-.menu li:hover .subMenu {
-  display: block;
-}
-
 .subMenu li a {
   display: block;
   padding: 7px;
 }
 
-/*animacion icono home*/
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animacion icono home
+
 .iconoHome {
   transition: transform 3s ease-in-out;
 }
@@ -82,10 +109,12 @@ nav ul {
   transform: rotate(70deg) scale(1);
 }
 
+*/
 
 
-/*------TITULOS------*/
 
+
+/*------TITULOS------
 
 .titulos {
   font-size: 3em;
@@ -126,11 +155,13 @@ nav ul {
   color: #284aa7;
   margin: 50px auto;
 }
+*/
+
+
 /*------INDEX-------*/
+/*
 
-
-
-/*---MAIN---*/
+---MAIN---
 
 main .info {
   width: 85%;
@@ -142,11 +173,6 @@ main {
   align-items: center;
 }
 
-.info img {
-  width: 500px;
-  height: 350px;
-  align-items: center;
-}
 
 .info {
   width: 90%;
@@ -158,6 +184,12 @@ main {
   align-items: center;
 
   justify-content: center;
+}
+
+.info img {
+  width: 500px;
+  height: 350px;
+  align-items: center;
 }
 
 .infoSuculenta {
@@ -172,7 +204,9 @@ main {
   margin: 5px 30px;
 }
 
-/*---TABLA---*/
+
+---TABLA---
+
 .familiaSuculentas {
   font-size: 40px;
   color: darkseagreen;
@@ -202,15 +236,26 @@ thead {
   border-bottom: solid 5px rgb(235, 241, 235);
   color: rgb(50, 55, 59);
 }
+*/
 
-.pie {
-  width: 95%;
-  margin: 5px auto;
-  background-color: rgba(173, 210, 176, 1);
-  border: 2px solid rgb(192, 133, 23);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*---TIPOS---*/
+
+/*
 .caracteristicas {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -231,34 +276,39 @@ thead {
 .colgantes {
   margin: 20px 40px;
   font-size: 22px;
-  /*display: flex;*/
+  /*display: flex;
   align-items: center;
   justify-content: start;
 }
+*/
+
 
 /*---CUIDADOS---*/
-.intro{
+/*.intro{
   margin: 20px 40px;
   padding: 60px ;
   font-size: 23px;
   display: flex;
   align-items: center;
   justify-content: start;
-}
+}*/
+
+
+
 
 /*---GALERIA---*/
-.galery{
+
+/*.galery{
   margin: 40px 40px;
   padding: 60px ;
   font-size: 23px;
   display: flex;
   align-items: center;
   justify-content: start;
-}
+}*/
 
 /*---LIBROS---*/
-
-.books{
+/*.books{
   margin: 40px 40px;
   padding: 60px ;
   font-size: 23px;
@@ -270,10 +320,11 @@ thead {
   margin: 20px 40px;
 
 }
+*/
 
 /*---VIDEOS---*/
 
-.video{
+/*.video{
   margin: 40px 40px;
   padding: 60px ;
   font-size: 23px;
@@ -281,10 +332,12 @@ thead {
   align-items: center;
   justify-content: start;
 
-}
+}*/
+
 
 /*---CONTACTO---*/
-.contacto,
+
+/*.contacto,
 .form-floating,
 .enviar {
   margin: 25px 50px;
@@ -295,10 +348,11 @@ thead {
 .enviar {
   border-radius: 2px;
 }
+*/
 
 /*---RESPONSIVE---*/
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 
   main,
   .info,
@@ -310,7 +364,7 @@ thead {
   table,
   .familia {
     width: 95vw;
-    /*vw, sirve para el ancho de las pantallas*/
+    ------vw, sirve para el ancho de las pantallas-----
   }
 
   picture img {
@@ -321,3 +375,5 @@ thead {
     max-width: 100%;
   }
 }
+*/
+

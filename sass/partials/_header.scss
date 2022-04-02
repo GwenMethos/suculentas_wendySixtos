@@ -1,0 +1,67 @@
+nav {
+    width: 90%;
+    margin: 15px auto;
+    background-image: linear-gradient(#65ac6a, #add2b0);
+    text-align: center;
+
+    ul {
+        list-style: none;
+    }
+}
+
+
+.menu {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+
+    >a{
+      text-decoration: none;
+    }
+
+    >li{
+        position: relative;
+        display: inline-block;
+
+        >a{
+            display: flex;
+            text-decoration: none;
+            padding: 10px 10px;
+            color: chocolate;
+            
+            >&:hover{
+                color: blanchedalmond;
+            }
+
+          }
+
+          &:hover .subMenu {
+            display: block;
+          }
+  }
+
+  
+
+
+  .subMenu {
+    position: absolute;
+    width: 100%;
+    display: none;
+    background-color: #e6f7e7;
+    min-width: 140px;
+
+    >li >a {
+      text-decoration: none;
+      text-align: start;
+
+        & a {
+          display: block;
+          padding: 7px;
+        }
+            
+    }
+       
+
+    }
+  }
+
+

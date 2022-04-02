@@ -1,0 +1,11 @@
+.iconoHome {
+    transition: transform 3s ease-in-out;
+  }
+  
+  .iconoHome:hover {
+    transform: rotate(70deg) scale(1);
+  }
+
+  .titulos{
+    animation-name: slidein;
+  }

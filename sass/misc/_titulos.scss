@@ -1,0 +1,39 @@
+.titulos {
+    font-size: 3em;
+    color: #006400;
+    margin: 50px 50px;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .tituloSecundario {
+    font-size: 2em;
+    color: #2e9b2e;
+    margin: 50px 50px;
+    text-align: center;
+  }
+  
+  .tituloTercero {
+    font-size: 23px;
+    color: #a7282e;
+    margin: 50px auto;
+  }
+  
+  .tituloCuarto{
+    font-size: 19px;
+    color: #284aa7;
+    margin: 50px auto;
+  }

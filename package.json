@@ -1,0 +1,25 @@
+{
+  "name": "suculentas_wendysixtos",
+  "version": "1.0.0",
+  "description": "proyecto suculentas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss sass/index.scss css/main.css", 
+    "watch-sass": "nodemon -e scss -x \"npm run build-sass\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GwenMethos/suculentas_wendySixtos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GwenMethos/suculentas_wendySixtos/issues"
+  },
+  "homepage": "https://github.com/GwenMethos/suculentas_wendySixtos#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

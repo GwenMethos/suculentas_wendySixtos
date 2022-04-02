@@ -1,0 +1,538 @@
+02:38:23	Jesús Hernández:	sass es hermoso
+02:38:27	Jesús Hernández:	jajajaja
+02:38:31	Jesús Hernández:	perdón
+02:38:33	[Tutora]Maria Cecilia Conti:	Les dejo el link a la presentación de la clase de hoy: https://docs.google.com/presentation/d/1RSsNd1EN_4Gr5eWQ4fx4jNQVgfmV-QXbRwPVoeRD0EE/edit#slide=id.geddb88c0e9_0_0
+02:38:53	Jesús Hernández:	atentos para que amen sass
+02:38:59	Gisel Cuenca:	tengo una pregunta, si cambio el nombre de la carpeta donde tengo mi proyecto (que es lo que subi a GitHub), pasa algo con eso que subi? osea si le cambio el nombre desde mi compu
+02:39:39	Tutor Jesús Hernández:	La raíz no...
+02:39:47	Tutor Jesús Hernández:	porque se sube son las de adentro
+02:40:10	Gisel Cuenca:	ah bien bien! muchas gracias!
+02:40:28	Francisco Castro:	si
+02:40:30	Romina Fernández:	sip
+02:40:31	Facundo Martinez:	si
+02:40:31	Tutor Jesús Hernández:	El git se desarrolla dentro de la carpeta raíz... pero al momento de subirla al github no la toma en cuenta
+02:40:31	María del mar Slootmans:	siip
+02:40:34	Michel Capurro:	si
+02:40:46	Tutor Jesús Hernández:	Pablo escucha voces
+02:40:48	Tutor Jesús Hernández:	turbio
+02:40:58	Agustín Daniel Zapata:	creo que no funciona mi micro 😞
+02:41:15	Carlos Montaño:	Crack profe
+02:44:11	Paula Lamas:	buen dia, perdón la hora, me fallo internet
+02:44:23	[Tutora] Yamila Belén Grosso:	Buen dia Pau, todo bien, recién empezamos
+02:45:20	Paula Lamas:	genial, gracias
+02:47:54	Francisco Castro:	responsive
+02:47:54	Gaston Luna:	desktop
+02:47:55	Ramiro Leonel Rivas:	Desktop
+02:48:49	Lucas Barria:	A mi me paso que modificaba el width pero no el height
+02:49:00	Lucas Barria:	Y cuando lo miraba en mi cel, estaba mal.
+02:49:07	Martín Guevara:	x2
+02:49:15	Tutor Jesús Hernández:	galaxy folder
+02:49:22	Tutor Jesús Hernández:	tiene menos de 320
+02:49:57	Lucas Barria:	Yo uso mucho el VH y el VW
+02:50:27	Lucas Barria:	Siempre le doy 10VH al header y al footer 15VH
+02:51:08	Jhonatan Alvarez Vargas:	a mi me paso, que un mapa no se ajustaba
+02:52:25	Lucas Barria:	Datazo
+02:52:30	Francisco Castro:	sip
+02:52:33	Marcia Filz:	si
+02:52:37	Tutor Jesús Hernández:	Los mapas tienes que sacarles el width y height que traen por defecto
+02:52:47	Tutor Jesús Hernández:	Los iframe
+02:53:12	Jhonatan Alvarez Vargas:	ah ok Jesus entiendo, intentare eso
+02:56:10	Martín Guevara:	es la 4.1
+02:56:19	Lionel Andreas Lescano:	es la versión 4
+02:56:23	Leandro Tisera:	es por la versión
+02:56:24	Gabriel Oscar Peralta:	esta ebn la versión 4.1 profe
+02:56:26	Sol Andino:	Hola, buen dia! Estoy sin luz, estoy por irme a un bar porque los datos no me van a alcanzar. Aviso por las dudas
+02:56:34	[Tutora] Yamila Belén Grosso:	Muy atentos
+02:56:36	Ramiro Leonel Rivas:	estas mirando 4.1
+02:56:38	Tutor Jesús Hernández:	raro
+02:56:44	Tutor Jesús Hernández:	La última es 5.1
+02:56:58	[Tutora]Maria Cecilia Conti:	No te preocupes Sol, gracias por avisar
+02:59:10	Lucas Barria:	Cual es la diferencia entre usar @media y @media only screen?
+02:59:40	Francisco Castro:	y usando esto tampoco seria necesario el container de Boostrap, no?
+03:02:50	Pedro Federico Tissone:	Lo mejor seria usar all entonces no
+03:02:57	Lucas Barria:	Perfecto muchas gracias.
+03:05:47	[Tutora] Yamila Belén Grosso:	Buen día para vos también, de nada
+03:06:16	Ramiro Leonel Rivas:	la de boostrap
+03:06:20	Ramiro Leonel Rivas:	putie mucho con eso
+03:07:14	Ramiro Leonel Rivas:	tenes otro Font size
+03:17:20	Lucas Barria:	El orden de las @media tiene algo que ver ?
+03:18:57	Lucas Barria:	Si
+03:18:57	Francisco Castro:	sip
+03:19:00	Juan Colmegna:	sisi
+03:19:01	Santiago Zapata:	si
+03:19:13	Francisco Castro:	vamos bien
+03:19:39	Pablo Martín Rovira:	https://www.w3schools.com/css/css3_mediaqueries.asp
+03:22:12	Pedro Federico Tissone:	bien
+03:22:13	María del mar Slootmans:	si
+03:22:17	María Otero:	so
+03:22:18	Francisco Castro:	👍
+03:22:20	María Otero:	si
+03:27:09	Amelia Gallegos:	que tamaños sugeris que utilicemos? de todos los que proporciona Bootstrap
+03:27:10	Rodrigo Alberto Argañaraz Olivera:	si
+03:27:44	Amelia Gallegos:	me refiero al tamaño de pantallas
+03:27:55	[Tutora] Yamila Belén Grosso:	es como dividir por 12  los elementos que tengo
+03:29:35	Estefanía Domínguez:	entonces nos conviene usar un poco bootsrap para distribuir y después aplicar nuestros estilos?
+03:29:48	Estefanía Domínguez:	o eso va a depender de lo que queramos hacer?
+03:29:52	[Tutora] Yamila Belén Grosso:	Según las necesidades
+03:29:53	[Tutora] Yamila Belén Grosso:	claro
+03:29:59	Estefanía Domínguez:	gracias
+03:30:11	Tutor Jesús Hernández:	hay proyectos que solo usan la grid de  bootstrap
+03:30:21	Gisel Cuenca:	y los media query que tenias antes los sacaste no? o Bootstrap lo pisa?
+03:31:38	[Tutora] Gabriela Rodriguez:	claro si aplican bootstrap bien, ya queda responsive
+03:32:48	Tutor Jesús Hernández:	basicam3nte porque si no definimos los breakpoint... por defecto los toma de 12
+03:33:09	Tutor Jesús Hernández:	si ponemos col-md-3
+03:33:16	Tutor Jesús Hernández:	El supone que lo anterior es 12
+03:33:35	Pedro Federico Tissone:	perfecto, clarísimo profe
+03:34:04	Tutor Jesús Hernández:	o dicho de otra forma es... siempre será 12 a m3nos que nosotros definamos algo diferente
+03:34:12	Jhonatan Alvarez Vargas:	si
+03:34:13	Agustín Daniel Zapata:	Si
+03:34:17	Pedro Federico Tissone:	si
+03:34:17	Gisel Cuenca:	si profe
+03:34:21	María Otero:	si
+03:36:37	Agustín Daniel Zapata:	si
+03:36:40	Lucas Barria:	Si
+03:43:44	Kenneth Delgado:	bueno quien tiene hambre?
+03:43:46	Martín Guevara:	yo probaría poniendo algún enlace en el <a>
+03:48:03	Santino Vigliero:	Es como en Word cuando copias un link y entras al link que te lo pinta de color
+03:48:51	adriana bello:	buenas
+03:49:22	Santino Vigliero:	:checked
+03:51:59	Estefanía Domínguez:	si
+03:52:02	Ramiro Leonel Rivas:	si
+03:52:04	adriana bello:	si}
+03:52:18	Cristian Portillo:	none
+03:52:40	Estefanía Domínguez:	el focus viene por defecto?
+03:53:22	Pedro Federico Tissone:	Que diferencia hay entre focus y hover?
+03:54:22	[Tutora] Yamila Belén Grosso:	hover es cuando pasas el mouse por el elemento, focus es cuando se selecciona un elemento, el mismo se enfoca
+03:54:48	Pedro Federico Tissone:	Gracias!
+03:54:56	Nahuel Vilariño:	con hover podrias cambiar el diseño del cursor cuando lo pasas por encima de algo no?
+03:55:19	Martín Guevara:	first-of-type
+03:56:32	[Tutora] Gabriela Rodriguez:	Si Nahuel
+03:57:09	[Tutora] Gabriela Rodriguez:	Cuando pasas el mouse por encima cambia de color o lo que sea que le digas que haga
+03:58:44	Pedro Federico Tissone:	muy bueno
+03:59:05	Carlos Montaño:	Genial
+04:03:25	claudio albornoz:	profe y si prueba poniendo div en vez de label?
+04:04:07	Martín Guevara:	eso no sería "labels que no sean .padre"?
+04:05:08	Pedro Federico Tissone:	La progrmacion tiene un tinte policial
+04:05:15	Estefanía Domínguez:	puede repetir
+04:05:18	[Tutora] Gabriela Rodriguez:	jajaja, un CSI
+04:05:25	Estefanía Domínguez:	se me mezclo un poco
+04:06:14	Rodrigo Alberto Argañaraz Olivera:	simplifica un montón la selección
+04:06:16	Estefanía Domínguez:	ahí se entendio!
+04:06:18	Gisel Cuenca:	muy bueno
+04:10:19	Pedro Federico Tissone:	muy bueno
+04:10:36	Jhonatan Alvarez Vargas:	solo lo hace para hijos vdd?
+04:11:31	Jhonatan Alvarez Vargas:	si si Gracias
+04:11:52	María del mar Slootmans:	esto sirve para cambiar, color tamaño tipo de font todo
+04:11:54	María del mar Slootmans:	?
+04:13:47	Diana Carolina Díaz García:	Profe, cómo justificó el texto en Visual?
+04:14:09	Diana Carolina Díaz García:	Gracias!
+04:14:36	María del mar Slootmans:	siiii
+04:14:38	Estefanía Domínguez:	si
+04:14:38	María del mar Slootmans:	se ve
+04:14:39	María Otero:	si
+04:14:42	Francisco Castro:	si
+04:14:54	María del mar Slootmans:	ah de unaa
+04:15:02	Juan Colmegna:	profe hay algún atributo que sirva para darle borde a las letras??
+04:16:07	[Tutora]Maria Cecilia Conti:	https://www.bufa.es/texto-borde-css/
+04:16:31	[Tutora]Maria Cecilia Conti:	Con la propiedad: -webkit-text-stroke
+04:16:40	Lucas Barria:	:O
+04:21:26	Santino Vigliero:	La pregunta seria quien no esta refriado
+04:24:50	Pedro Federico Tissone:	Pero las líneas las creaste solo con la propiedad right y left??
+04:25:03	Lucas Barria:	Es buenísimo es como comenzar a dibujar
+04:25:17	Rodrigo Alberto Argañaraz Olivera:	y background color
+04:25:20	Lucas Barria:	Sin traer imágenes, svg, etc.
+04:25:29	Pedro Federico Tissone:	ahhh
+04:27:00	Santino Vigliero:	El "  " que era? Para dejar un espacio es?
+04:27:29	Santino Vigliero:	Aa eso
+04:27:46	Lucas Barria:	Por ejempo a esa linea se le podría aplicar una animación?
+04:28:12	Diego Reynoso:	en el contenido puede ir HTML? como por ejemplo para un icono?
+04:28:51	Lucas Barria:	Si Diego, puso un ejemplo con un icono.
+04:31:06	Estefanía Domínguez:	si
+04:31:07	Lucas Barria:	Si
+04:31:09	Jhonatan Alvarez Vargas:	puede repetir de nuevo
+04:31:11	adriana bello:	si
+04:31:25	Pablo Martín Rovira:	https://nodejs.org/es/
+04:31:54	[Tutora] Gabriela Rodriguez:	para Mac, en el drive hay unos videos tutoriales
+04:32:08	Wendy Sixtos:	yo
+04:32:09	Marcia Filz:	si
+04:32:11	Julieta Cowan:	Yo!
+04:32:55	Estefanía Domínguez:	oki
+04:32:58	Lucas Barria:	Ya me va a servir para backend mas adelante jaja
+04:32:59	Santino Vigliero:	perfecto
+04:33:02	Francisco Castro:	perfecto!
+04:33:03	Fabrizio Mammarelli:	dale
+04:33:04	Francisco Castro:	nos vemos
+04:33:11	[Tutora] Yamila Belén Grosso:	nos vemos
+05:19:16	Leandro Tisera:	no esta compartiendo pantalla profe
+05:19:32	Martín Guevara:	si
+05:19:33	Leandro Tisera:	si profe
+05:19:33	Wendy Sixtos:	sip
+05:19:33	Cristian Portillo:	si
+05:19:34	Francisco Castro:	si
+05:20:34	Gisel Cuenca:	vamooooo
+05:20:43	Gisel Cuenca:	jaja
+05:20:46	claudio albornoz:	si eso le iba a decir
+05:21:06	Ramiro Leonel Rivas:	si están mal indexadas
+05:21:11	Pedro Federico Tissone:	básicamente podría ser igual a la entrega de los desafíos que vencen hoy, que ya tienen animaciones y boostrap
+05:21:15	Pedro Federico Tissone:	?
+05:22:40	[Tutora] Yamila Belén Grosso:	si, lo único vean las rúbricas de entrega de las pre entregas https://drive.google.com/drive/u/0/folders/1JEsUOYYcYs2oNzxoFDwezoPhSbj04-5G
+05:22:41	Gisel Cuenca:	podemos usar lo que vimos hoy?
+05:22:46	Leandro Tisera:	profe si aplico bootsrap tengo que borrar todos los estilos de grid que había aplicado (row y col) en el css?
+05:22:51	Juan Colmegna:	profe, nos recomienda alguna pagina para sacar sprites?
+05:22:53	[Tutora] Yamila Belén Grosso:	Como para que cumplan con lo máximo que pide
+05:23:02	Kenneth Delgado:	puedo usar CSS puro ??? sin necesidad de Bootstrap???
+05:23:04	Estefanía Domínguez:	es ba elección usar boot o grid?
+05:23:05	Pedro Federico Tissone:	perfecto Yami gracias
+05:23:06	[Tutora] Yamila Belén Grosso:	y puedan ajustar todos los detalles
+05:23:29	Juan Cruz Palermo:	osea tenemos que empezar de 0 dos HTML en el proyecto que veníamos teniendo?
+05:23:48	Ramiro Leonel Rivas:	SVG?
+05:24:31	Amelia Gallegos:	no entiendo la diferencia entre la entrega del proyecto final y el resultado del ultimo desafio
+05:24:34	Pablo Martín Rovira:	https://sp.depositphotos.com/vector-images/sprites.html
+05:24:47	Pedro Federico Tissone:	ajustar detalles
+05:26:14	Pedro Federico Tissone:	si
+05:26:14	Marcia Filz:	Creo que si
+05:26:15	Leandro Tisera:	se
+05:26:15	Francisco Castro:	si
+05:26:16	Agustín Daniel Zapata:	si
+05:26:16	Julieta Cowan:	Sii
+05:26:17	Lionel Andreas Lescano:	si
+05:26:17	Estefanía Domínguez:	sip
+05:26:19	Lisandro Lima:	creo que si
+05:26:19	Paula Lamas:	si
+05:26:20	Gisel Cuenca:	creo que si
+05:26:21	German Weckesser:	Creo que si
+05:26:22	Sofía Cuerdo:	no estoy segura
+05:26:24	Wendy Sixtos:	Creo que si
+05:26:28	Cristian Portillo:	ya lo tengo instalado Profe
+05:26:28	Jhonatan Alvarez Vargas:	yo instale node y se abrió powershell y esta instalando cosas
+05:26:34	Martín Guevara:	node me instaló una terminal (parece)
+05:26:56	[Tutora] Yamila Belén Grosso:	Si no, si lo que queres hacer es para hacer otra entrega que no vas a terminar mergeando, podes hacer un repo aparte
+05:27:06	[Tutora] Yamila Belén Grosso:	perdon, ese mensaje era privado
+05:27:26	Leandro Tisera:	v16.14.2 ese me sale a mi
+05:27:31	Pedro Federico Tissone:	tengo una versión anterior
+05:27:32	María del mar Slootmans:	Type ".help" for more information.> 4
+05:27:57	[Tutora] Yamila Belén Grosso:	esta bien si tienen la 16
+05:28:09	Marcia Filz:	Todo instalado hasta ahora
+05:28:13	Nahuel Vilariño:	tengo la 17.8
+05:28:14	Sofía Cuerdo:	idem
+05:28:16	María del mar Slootmans:	Welcome to node
+05:28:17	María del mar Slootmans:	me dice
+05:28:18	Nahuel Vilariño:	descargo otra?
+05:28:18	Francisco Castro:	todo bien
+05:28:18	Sofía Cuerdo:	todo intaladao por el momento
+05:28:31	Kenneth Delgado:	v16.14.2
+05:28:33	Agustín Daniel Zapata:	todo correcto
+05:29:00	Gaston Luna:	a mi me aparece "node" no se reconoce como un comando interno o externo,programa o archivo por lotes ejecutable.
+05:29:03	Sofia Mato:	Que hago si dice “Uncaught ReferenceError: npm is not defined
+05:29:19	Mateo Zivano:	como instalo npm?
+05:29:20	Amelia Gallegos:	x2
+05:29:21	Gaston Luna:	si
+05:29:23	Sofia Mato:	Node si aparece ok
+05:29:24	Martín Guevara:	El uncaught lo tira cuando ya escribiste "node"
+05:29:32	Martín Guevara:	Osea, cuando entras a trabajar en node
+05:29:39	Lionel Andreas Lescano:	fíjate que node tiene que estar pegado al >
+05:30:18	Martín Guevara:	y el "node -v" no funciona en la terminal que instala node porque automáticamente está lista para ser usada
+05:30:58	Amelia Gallegos:	node : El término 'node' no se reconoce como nombre de un cmdlet,función, archivo de script o programa ejecutable. Compruebe siescribió correctamente el nombre o, si incluyó una ruta de acceso,compruebe que dicha ruta es correcta e inténtelo de nuevo.En línea: 1 Carácter: 1+ node -v+ ~~~~    + CategoryInfo          : ObjectNotFound: (node:String) [], Co   mmandNotFoundException    + FullyQualifiedErrorId : CommandNotFoundException
+05:30:59	Sofia Mato:	Ah si era eso Grax
+05:31:06	Amelia Gallegos:	a mi me aparecio eso
+05:31:11	Amelia Gallegos:	haciendo node -v
+05:32:29	Amelia Gallegos:	sino paseme el linkk de nuevo
+05:32:37	Pablo Martín Rovira:	https://nodejs.org/es/
+05:32:40	Lucas Barria:	Sale apex 😁
+05:32:47	Amelia Gallegos:	gracias
+05:33:06	Santiago Zapata:	profe, podes mostrar nuevamente como descargar npm?
+05:33:39	Gaston Luna:	ahí pude instalarlo
+05:33:51	Santiago Zapata:	ahh perfecto, listo!
+05:37:33	Francisco Castro:	cri cri
+05:37:35	Lucas Barria:	no
+05:37:37	Lucas Barria:	O si
+05:37:38	María del mar Slootmans:	html css
+05:37:40	Jhonatan Alvarez Vargas:	HTML, css y JS
+05:37:47	Lucas Barria:	Ahh si si
+05:38:24	Jhonatan Alvarez Vargas:	por q son librerías q se alojan en CSS por decir algo
+05:39:39	[Tutora] Yamila Belén Grosso:	Va a ser más ordenado, más corto
+05:40:07	Lucas Barria:	Nuestro propio framework?
+05:40:14	Pedro Federico Tissone:	parece genial
+05:40:18	[Tutora] Yamila Belén Grosso:	Ustedes que empezaron a usar css y ahora tienen que pasar a sass, van a pensar que es medio molesto.
+05:40:27	[Tutora] Yamila Belén Grosso:	pero solo al principio
+05:40:45	Martín Guevara:	suena a que sass sería como un lenguaje de más bajo nivel
+05:41:26	Kenneth Delgado:	SASS es CSS pero con super poderes
+05:41:32	Pedro Federico Tissone:	jaaaa
+05:41:50	[Tutora] Yamila Belén Grosso:	el que creo SASS, estaba seguro que creo algo copado jaja
+05:41:51	Sofía Cuerdo:	se vende en el nombre ..qué bien
+05:44:20	claudio albornoz:	traductor
+05:46:08	[Tutora] Yamila Belén Grosso:	todos nos trabamos con scss
+05:46:18	[Tutora] Yamila Belén Grosso:	no estas solo Pablo jaja
+05:46:48	[Tutora] Gabriela Rodriguez:	jajaja
+05:47:34	Ramiro Leonel Rivas:	si
+05:47:35	Francisco Castro:	si
+05:47:36	Martín Guevara:	suponemos que no?
+05:47:36	Gaston Luna:	si
+05:47:37	Martín Cueva:	si
+05:47:38	María Otero:	si
+05:47:38	Ramiro Leonel Rivas:	es mas intuitivo
+05:47:39	Jhonatan Alvarez Vargas:	no,
+05:48:22	Pablo Martín Rovira:	https://sass-lang.com/
+05:49:00	Martín Guevara:	{ }
+05:49:03	Gabriel Oscar Peralta:	los signos
+05:49:04	Estefanía Domínguez:	;
+05:50:51	Lucas Barria:	Como con @media?
+05:50:57	Lucas Barria:	:O
+05:51:09	Stiven Diaz Hincapie:	epico
+05:51:18	Gaston Luna:	mesirve
+05:51:20	Martín Guevara:	sublime
+05:51:26	Francisco Castro:	soy feliz
+05:51:31	Agustín Daniel Zapata:	y en caso de querer hacerlo con clases?
+05:51:40	Santino Vigliero:	Osea es lo mismo que css pero te acorta el trayecto, lo hace mas simple
+05:51:42	Estefanía Domínguez:	osea dentro del elemnto padre anidamos los hijos??  algo asi seria??
+05:51:56	[Tutora] Yamila Belén Grosso:	yo creo que todo se va a ir agregando al css, ojalá
+05:51:57	Lucas Barria:	Buenisimo
+05:52:04	[Tutora]Maria Cecilia Conti:	Seria de la misma manera Agus
+05:52:04	Francisco Castro:	excelente
+05:52:18	Agustín Daniel Zapata:	😍
+05:52:30	Lautaro Jimenez:	básicamente es ahorrarnos líneas de codigo
+05:52:34	Martín Guevara:	ahora tengo la necesidad imperativa de hacer el próximo desafío con sass
+05:52:42	Agustín Daniel Zapata:	Queda mas ordenado
+05:52:48	Lautaro Jimenez:	eso esta bueno
+05:52:50	Agustín Daniel Zapata:	y compacto
+05:52:52	Stiven Diaz Hincapie:	epa
+05:52:56	Agustín Daniel Zapata:	esta buenisimo
+05:53:05	Santino Vigliero:	div>div>div<div>ul>li>a
+05:53:49	Kenneth Delgado:	yo he tocado un poco de SASS, podria usarlo desde ya para estos  desafios a entregar?
+05:55:01	Lautaro Jimenez:	nunca mas escribo 700 veces la misma clase para hacer diferentes cosas
+05:56:05	Martín Guevara:	tra
+05:56:07	Tomas Almohalla:	traducirlo
+05:56:09	Gabriel Oscar Peralta:	traducirlo
+05:56:11	Estefanía Domínguez:	traducirlo
+05:59:11	Jhonatan Alvarez Vargas:	que diferencia es tener nodejs y JS
+05:59:50	Jhonatan Alvarez Vargas:	:O
+06:01:12	Jhonatan Alvarez Vargas:	Entendido, Gracias
+06:01:39	Martín Cueva:	uno es interpretado y el otro compilado
+06:02:43	Estefanía Domínguez:	si
+06:02:44	Jhonatan Alvarez Vargas:	si
+06:02:45	Francisco Castro:	sip
+06:04:45	Gisel Cuenca:	vamos haciendo lo mismo o nos conviene prestar atención?
+06:06:08	Lucas Barria:	Si
+06:06:09	Gisel Cuenca:	si
+06:06:09	Wendy Sixtos:	si
+06:06:09	Jhonatan Alvarez Vargas:	si
+06:06:11	Amelia Gallegos:	si
+06:06:17	Estefanía Domínguez:	profe eso lo hacemos una vez creado el archivo scss?
+06:06:37	Estefanía Domínguez:	porque lo intenmte pero no mke deja
+06:06:48	Estefanía Domínguez:	npm init
+06:07:01	Estefanía Domínguez:	no me salio nada
+06:07:05	Lisandro Lima:	npm : El término 'npm' no se reconoce como nombre de un cmdlet,
+06:07:09	Lisandro Lima:	eso me sale a mi
+06:08:18	Lisandro Lima:	ok
+06:08:22	Kenneth Delgado:	cuando debo usar npm install -g sass ???
+06:08:38	Lisandro Lima:	lo tengo instalado
+06:08:42	Francisco Castro:	hacerlo con una terminal u otra es indistinto?
+06:08:42	Agustín Daniel Zapata:	Al igual que en Git el init solo se usa una vez?
+06:08:47	Francisco Castro:	poweshell o git
+06:08:47	claudio albornoz:	profe la ñ la toma como error?
+06:08:48	Tutor Jesús Hernández:	una sola vez
+06:08:55	Estefanía Domínguez:	me dice comando no encontrado
+06:09:09	Francisco Castro:	perfecto
+06:09:13	Tutor Jesús Hernández:	porque la ñ no existe en ingles
+06:09:26	Tutor Jesús Hernández:	recuerdan cuando les dije que no usen ñ ni tildes
+06:09:37	Gisel Cuenca:	por que git bash no
+06:09:41	Agustín Daniel Zapata:	en node me refiero.
+06:09:52	claudio albornoz:	gracias jesus
+06:09:54	Santino Vigliero:	A mi tampoco me lo reconoce
+06:09:58	claudio albornoz:	corrijo eso entonces
+06:11:09	(Tutora) Nazarena Troisi:	si no sale envíen captura de pantalla por la plataforma así los podemos ayudar mejor
+06:12:08	Lionel Andreas Lescano:	a mi también me dice que no existe el comando
+06:13:09	Jhonatan Alvarez Vargas:	si
+06:13:09	Agustín Daniel Zapata:	Si
+06:13:10	Stiven Diaz Hincapie:	si
+06:13:12	Cristian Portillo:	si
+06:13:12	Gisel Cuenca:	ssi
+06:13:18	Pablo Martín Rovira:	npm install -D node-sass
+06:13:23	Martin Torres:	sii
+06:13:24	Estefanía Domínguez:	en pwsh no me reconoce el comando npm init aun
+06:13:43	Estefanía Domínguez:	oki
+06:13:43	Sofia Mato:	Me apareció este mensaje 3 veces npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+06:14:03	Ramiro Leonel Rivas:	Yo tenia mal puesto el nombre del proyecto (hay que sacar el +, los espacios y la mayuscula del nombre)
+06:14:48	Estefanía Domínguez:	no se reconoce como un comando interno o externo,programa o archivo por lotes ejecutable. eso me dice
+06:15:03	Pablo Martín Rovira:	corre npm -v y decime que te dice
+06:15:28	Santino Vigliero:	Yo estoy igual que Estefania
+06:15:48	Eva Quinteros González:	Consulta, al descargar ese package.json desde la terminal del escritorio, donde aparece en VSC? o si o si, lo llamo en la terminal de él?
+06:15:48	Estefanía Domínguez:	no reconoce el comando npm
+06:16:11	Gabriel Oscar Peralta:	el gitignore donde debe estar ubicado profe?
+06:16:33	Gisel Cuenca:	JAJAJJ
+06:16:38	Nahuel Vilariño:	soy mas de los perros yo
+06:16:39	Wendy Sixtos:	Jajaja RIP
+06:16:41	Francisco Castro:	jjaajajaa
+06:16:41	María del mar Slootmans:	jaajjaa por queeeee profe
+06:16:49	Agustín Daniel Zapata:	🐱
+06:16:52	Pedro Federico Tissone:	un gatito muere? jaja
+06:20:14	Pablo Martín Rovira:	"build-sass": "node-sass --include-path scss sass/index.scss css/main.css"
+06:21:16	[Tutora] Yamila Belén Grosso:	ojo, hagan una copia de seguridad de sus css si le ponen el mismo nombre
+06:21:39	Martín Guevara:	cada vez que modificamos el sass habría que hacer un build-sass?
+06:24:19	Pedro Federico Tissone:	si
+06:24:21	Lucas Barria:	Si
+06:24:21	Francisco Castro:	si
+06:24:22	claudio albornoz:	si
+06:24:22	Enzo Almada:	si
+06:24:24	Agustín Daniel Zapata:	si
+06:24:25	Jhonatan Alvarez Vargas:	si
+06:25:01	Pablo Martín Rovira:	npm install -D nodemon
+06:25:39	Tutor Jesús Hernández:	abrahan Bravo está presente?
+06:26:00	Martín Guevara:	el nodemon también se instala por proyecto?
+06:27:23	Jhonatan Alvarez Vargas:	tiene doble " al final esta bien?
+06:27:38	Pablo Martín Rovira:	"watch-sass": "nodemon -e scss -x \"npm run build-sass\""
+06:27:42	[Tutora] Yamila Belén Grosso:	Santi, mostrá más de la consola
+06:27:46	Tutor Jesús Hernández:	Abrahan Bravo está presente?
+06:28:16	[Tutor] José Luis Koller:	Te falta guardar
+06:30:41	Lucas Barria:	Siempre se tiene que hacer lo mismo
+06:30:43	Lucas Barria:	?
+06:30:55	Gaston Luna:	cual es el comando?
+06:32:11	Kenneth Delgado:	npm -w sass/ -o css/  no seria mejor?
+06:33:01	Kenneth Delgado:	no, eso aparece en node-sass
+06:33:54	Kenneth Delgado:	los acabas de pasa
+06:34:44	Tomas Schulteis:	el main que crea en css  se guarda en git ?
+06:34:49	Agustín Daniel Zapata:	Profe yo en un rato me tengo que ir.
+06:35:30	Francisco Castro:	yo hice todo pero me doy cuenta que me lo hizo en la termina de node, y no en pwsh...esta OK?
+06:35:33	Pedro Federico Tissone:	Que quilombo, yo me quejaba de git
+06:35:43	Pedro Federico Tissone:	jaja
+06:35:44	[Tutora] Yamila Belén Grosso:	Se me cerró unos minutos el zoom, si alguno me hablo por alguna duda, me vuelve a hablar 😅😅
+06:37:36	Cristian Portillo:	header y footer
+06:37:57	Gisel Cuenca:	no entiendo para que se crean esas carpetas
+06:38:03	Lautaro Jimenez:	no entendí nada
+06:38:04	Lautaro Jimenez:	de nada
+06:38:08	Lautaro Jimenez:	me perdi en la primer carpeta
+06:38:16	Lautaro Jimenez:	a
+06:38:20	Lautaro Jimenez:	ok
+06:39:10	Lucas Barria:	Ahhh
+06:39:12	Juan Cruz Palermo:	Se suele trabajar con sass en general en las empresas ? o depende de cada una
+06:39:23	Agustín Daniel Zapata:	Me fui por un segundo y salieron un montón de carpetas 😅
+06:39:30	Ramiro Leonel Rivas:	jajaja
+06:39:42	Rodrigo Alberto Argañaraz Olivera:	acá es donde tenemos un css por cada view como queríamos verdad?
+06:40:06	Martín Guevara:	después se compila todo en 1 solo css?
+06:40:25	Jhonatan Alvarez Vargas:	es dividir el SASS como se dividio el CSS original q hicimos correcto?
+06:41:15	Stiven Diaz Hincapie:	se puede importar?
+06:42:48	[Tutora] Gabriela Rodriguez:	El CSS deberia ser uno solo, sass si pueden ser varios y se compilan en un solo CSS
+06:43:32	Stiven Diaz Hincapie:	epico
+06:43:33	Juan Colmegna:	si
+06:43:34	Jhonatan Alvarez Vargas:	si
+06:43:36	Pedro Federico Tissone:	como haces ese caracter
+06:43:38	Francisco Castro:	si
+06:43:38	claudio albornoz:	enu link puede ir dentro de menú ítem?
+06:43:38	María del mar Slootmans:	* cerebro salio del chat*
+06:43:46	Pablo Martín Rovira:	&
+06:43:51	Juan Colmegna:	shift+6
+06:43:58	Rodrigo Alberto Argañaraz Olivera:	shift 6
+06:44:00	Gisel Cuenca:	en views irían todas nuestras secciones?
+06:44:03	Amelia Gallegos:	escuchare la clase 10 veces!
+06:44:27	[Tutora] Gabriela Rodriguez:	A todos nos pasa que no entendemos Sass a la primera
+06:44:28	claudio albornoz:	ok
+06:44:30	[Tutora] Gabriela Rodriguez:	es normal
+06:45:13	Pedro Federico Tissone:	Tenemos que copiar todo en las distintas carpetas manualemente de esa forma no?
+06:45:16	Gisel Cuenca:	en views solo queda la parte del main?
+06:45:18	Pedro Federico Tissone:	es laborioso
+06:46:05	claudio albornoz:	la idea seria una vez pasemos todo borrar index.css?
+06:46:29	[Tutora] Yamila Belén Grosso:	Si, es un trabajito pero después les va a quedar súper ordenado
+06:47:02	Tomas Schulteis:	es como mucho mas prolijo
+06:47:07	Jhonatan Alvarez Vargas:	es talacha jeje
+06:47:23	Amelia Gallegos:	es decir que vale la pena escuchar la clase las 10 veces jajaja
+06:48:20	María del mar Slootmans:	profe y el normalizer los helpers que eran para todas las paginas … en que carpeta van ?????
+06:49:46	Ramiro Leonel Rivas:	donde firmo?
+06:49:58	Gisel Cuenca:	que biennn
+06:50:16	Ramiro Leonel Rivas:	mal, mucho mas lógico todo
+06:50:32	Pedro Federico Tissone:	Quiero que mi epitafio sea "mori migrando sass"
+06:50:42	[Tutora]Maria Cecilia Conti:	Jajaja
+06:50:56	[Tutora] Yamila Belén Grosso:	Jajajajaja
+06:51:22	Agustín Daniel Zapata:	Profe me retiro, después veo la grabación. Buena clase, nos vemos. 👋
+06:51:34	[Tutora]Maria Cecilia Conti:	Saludos Agus!
+06:51:59	Gisel Cuenca:	en animations van todas las animaciones de todas las paginas?
+06:54:23	Lisandro Lima:	cool
+06:54:25	Gabriel Oscar Peralta:	jujuuuu
+06:54:27	Andrea Arroyo:	:o
+06:54:29	Pedro Federico Tissone:	gracias!!!
+06:54:39	Gisel Cuenca:	messssssirve mucho eso
+06:56:39	Gisel Cuenca:	el sass ya esta vinculado al HTML?
+06:57:42	Rodrigo Alberto Argañaraz Olivera:	tienen un orden de importacion?
+06:58:03	Rodrigo Alberto Argañaraz Olivera:	ahh claro
+06:59:29	Lautaro Jimenez:	una vez que terminamos de importar todo
+06:59:34	Lautaro Jimenez:	nuestro css original lo borramos ?
+06:59:51	Estefanía Domínguez:	disculpe profe, me tengo que ir.
+07:01:11	María del mar Slootmans:	indez css lo podemos borrar?
+07:01:25	Diana Carolina Díaz García:	Es bueno combinar SASS y Bootstrap?
+07:01:45	[Tutora] Gabriela Rodriguez:	bootstrap es una cosa y sass otra
+07:01:58	[Tutora] Gabriela Rodriguez:	con sass escriben sus estilos propios
+07:02:12	[Tutora] Gabriela Rodriguez:	y los compilan en CSS
+07:02:42	[Tutora] Gabriela Rodriguez:	bootstrap es un framework
+07:02:55	Francisco Castro:	puff
+07:02:56	Lisandro Lima:	(its fine)
+07:03:03	Santino Vigliero:	after de sass?
+07:03:18	Ramiro Leonel Rivas:	vamoo
+07:03:19	María del mar Slootmans:	gracias dios
+07:03:24	Gisel Cuenca:	quein toma la asistencia de candela?
+07:03:24	Pedro Federico Tissone:	el desafio de sass es importar todo básicamente?
+07:03:25	Jhonatan Alvarez Vargas:	cuando usamos sass no se usa Bootstrap
+07:03:25	[Tutora] Gabriela Rodriguez:	falta una clase de sass tambien
+07:03:57	Stiven Diaz Hincapie:	se podría traducir bootstrap con sass?
+07:04:08	Ramiro Leonel Rivas:	Si, es mucho mas sencillo todo. el tema son los "cuidado no hagan esto.."
+07:04:09	Lautaro Jimenez:	nop
+07:04:09	Francisco Castro:	no
+07:04:10	Andrea Arroyo:	no
+07:04:11	Pedro Federico Tissone:	Es casi igual profe
+07:04:16	Romina Fernández:	no
+07:04:16	Stiven Diaz Hincapie:	easy
+07:04:30	Andrea Arroyo:	y el desafio es migrar todo?
+07:04:37	Gisel Cuenca:	pregunta! Quienn nos toma la asistencia de candela?
+07:05:15	[Tutora] Yamila Belén Grosso:	Claro, piensen que si inician un nuevo proyecto y hacen desde el comienzo con sass, no tendrían que pasar todo un css, ya lo harían con esa metodología de un principio.
+07:05:24	[Coord.]Gonzalo Rodriguez:	Gisel, ya fue tomada la asistencia.Cualquier cosa podes consultarlo con tu tutor
+07:05:30	[Coord.]Gonzalo Rodriguez:	o tutora
+07:05:34	Kenneth Delgado:	creo que no seria tanto enredo si se usa la extension de SASS en VSCode o ya bien solo desde la terminal sin necesidad de NODE.
+07:05:48	claudio albornoz:	en algún momento se va a pedir que migremos todo?
+07:05:51	[Tutora] Yamila Belén Grosso:	Es como que ahora hacemos un trabajo extra por haber empezado con css.
+07:06:05	[Tutora]Maria Cecilia Conti:	Si Clau, para la tercer entrega del proyecto final
+07:06:11	Kenneth Delgado:	pero por algo esta en el temario
+07:06:26	claudio albornoz:	perfecto empiezo a hacerlo desde ahora jajaja
+07:07:39	Santino Vigliero:	Podes repasar los desafíos para el rpoximo sabado
+07:07:44	[Tutora] Gabriela Rodriguez:	Deben trabajar con SASS amiguitos
+07:08:02	Jhonatan Alvarez Vargas:	podría compartir el codigo
+07:08:06	[Tutora] Yamila Belén Grosso:	Y aparte para la 3era entrega lo pide.
+07:08:14	Pedro Federico Tissone:	deberíamos migrar todo cuanto antes oka
+07:08:16	[Tutora] Yamila Belén Grosso:	Así que ya les va a quedar así
+07:08:25	Pedro Federico Tissone:	perfecto
+07:08:29	Jhonatan Alvarez Vargas:	Gracias
+07:08:56	Santino Vigliero:	Podes repasar los desafíos para el rpoximo sabado
+07:09:16	Nahuel Vilariño:	me tengo que retirar profe
+07:09:21	Nahuel Vilariño:	buen finde
+07:09:26	Pablo Martín Rovira:	https://github.com/sairov/brahinworx_25245
+07:09:26	Pedro Federico Tissone:	Me tengo que ir muchas gracias profe
+07:09:27	[Tutora]Maria Cecilia Conti:	Buen finde!!
+07:09:30	Gabriel Oscar Peralta:	profe consulta... yo ya agregue la erstructura de las carpetas a mi proyecto como hizo recién... se puede entregar asi como segunda entrega del proyecto? o debo borrar la estructura para entregar?
+07:09:49	Gabriel Oscar Peralta:	gracias profe!!! genial !!!!
+07:10:05	Gabriel Oscar Peralta:	estuvo increíble sass!!!
+07:10:17	[Tutora]Maria Cecilia Conti:	Una pagina a elección
+07:11:11	Juan Cruz Palermo:	No es lo msmo que el desafio de la semana pasada?
+07:11:14	Santino Vigliero:	en la rama del master?
+07:11:19	Santino Vigliero:	o creo una Branch nueva
+07:11:36	Juan Cruz Palermo:	Ah perfecto! gracias!
+07:11:52	Francisco Castro:	Gracias Pablo, buensima la clase como siempre! Buen fin de semana a todos!!!
+07:11:53	Santino Vigliero:	Dale perfecto
+07:12:12	claudio albornoz:	me retiro buen fin de semana para todos!
+07:12:16	Lucas Barria:	Buen finde pablo, saludos a todos
+07:12:21	[Tutora]Maria Cecilia Conti:	Buen finde!!
+07:12:31	Juan Cruz Palermo:	Me tengo que ir nos vemos!! buen finde
+07:12:34	[Tutora] Yamila Belén Grosso:	Nos vemos! Buen finde
+07:12:54	Malena Soiza Dinis:	Buen finde, excelente clase como siempre!
+07:13:00	[Tutora]Maria Cecilia Conti:	Buen finde Jaz!
+07:13:07	Jhonatan Alvarez Vargas:	muchas Gracias a todos, que tengan buen finde
+07:13:08	German Weckesser:	Perdon profe pero debo irme. Hasta el sábado que viene.
+07:13:09	Santiago Zapata:	Buen finde, adios
+07:13:19	Gabriel Sidders:	buen finde1
+07:13:29	Luis Martínez Aguilar:	Buen fin de semana a todos
+07:13:29	Santino Vigliero:	Buen finde 7
+07:13:37	Sofía Cuerdo:	Buen fin de semana!
+07:13:38	Paula Lamas:	buen finde para todos y almohadoncito en la cola
+07:17:42	[Tutora] Gabriela Rodriguez:	Vhao chicos, buen finde
+07:17:45	[Tutora] Gabriela Rodriguez:	*chao
+07:17:48	Diana Carolina Díaz García:	Bonito fin!
+07:18:00	Ramiro Leonel Rivas:	Descansen, buen fin de semana!
+07:19:09	Gisel Cuenca:	lindo finde!!
+07:19:10	Michel Capurro:	chau saludos
+07:19:12	[Tutora] Yamila Belén Grosso:	Nos vemos! Descanses, practiquen!

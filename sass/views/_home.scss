@@ -1,0 +1,92 @@
+main {
+    width: 85%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+.info{
+    width: 90%;
+    max-width: 1600px;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+  
+    justify-content: center;
+
+    img {
+        width: 500px;
+        height: 350px;
+        align-items: center;
+    }
+    .infoSuculenta {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 20px;
+        margin: 5px 30px;
+    }
+    .habitat {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-size: 20px;
+        margin: 5px 30px;
+      }
+}
+
+
+
+.familiaSuculentas {
+    font-size: 40px;
+    color: darkseagreen;
+    margin: 5px 30px;
+    text-align: center;
+  }
+  
+  .familia {
+    margin: 150px auto;
+    width: 600px;
+  }
+  
+  table {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 20px;
+  }
+  
+  thead {
+    background-color: rgb(146, 228, 135);
+    border-bottom: solid 5px rgb(235, 241, 235);
+    color: rgb(50, 55, 59);
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+    main,
+    .info,
+    .caracteristicas {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    table,
+    .familia {
+      width: 95vw;
+      /*vw, sirve para el ancho de las pantallas*/
+    }
+  
+    picture img {
+      max-width: 100%;
+    }
+  
+    .imagen img {
+      max-width: 100%;
+    }
+  }
