@@ -1,10 +1,10 @@
 .titulos {
     font-size: 3em;
-    color: #006400;
+    color: $titulo1;
     margin: 50px 50px;
     text-align: center;
     animation-duration: 3s;
-    animation-name: slidein;
+    font-family: $fontTitle;
   }
   
   @keyframes slidein {
@@ -20,20 +20,23 @@
   }
   
   .tituloSecundario {
-    font-size: 2em;
-    color: #2e9b2e;
-    margin: 50px 50px;
+    font-size: 2rem;
+    color: $titulo2;
+    margin: 40px 40px;
     text-align: center;
   }
   
   .tituloTercero {
-    font-size: 23px;
-    color: #a7282e;
-    margin: 50px auto;
+    font-size: 1.5rem;
+    color: $titulo3 ;
+    margin: 50px 40px;
+    text-align: left;
   }
   
   .tituloCuarto{
     font-size: 19px;
-    color: #284aa7;
+    color: $titulo4;
     margin: 50px auto;
   }
+  
+  

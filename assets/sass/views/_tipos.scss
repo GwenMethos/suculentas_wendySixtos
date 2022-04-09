@@ -1,24 +1,38 @@
+/*Tipos*/
+
 .caracteristicas {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-row: auto 100px;
+    grid-row: auto 60px;
     column-gap: 1em;
-    margin: 20px 40px;
+    margin: 20px 20px;
     padding: 60px ;
-  
     font-size: 25px;
-    display: flex;
     align-items: center;
-    justify-content: start;
+    
   }
 
   .conTallo,
-.sinTallo,
-.cactus,
-.colgantes {
-  margin: 20px 40px;
-  font-size: 22px;
-  /*display: flex;*/
-  align-items: center;
-  justify-content: start;
+  .sinTallo,
+  .cactus,
+  .colgantes {
+    margin: 20px 40px;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+
+.card{
+  background-color: rgb(180, 245, 245);
 }
+
+
+@media screen and (max-width: 375px){
+
+  .titulos, .tituloSecundario, .tituloTercero, .caracteristicas, .imagen, .container{
+    display: flex;
+    @include flex (row, relative)
+  }
+
+  }

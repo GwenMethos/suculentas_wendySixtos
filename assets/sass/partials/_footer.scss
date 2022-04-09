@@ -1,6 +1,9 @@
+/*FOOTER*/
+
 .pie {
-  width: 95%;
+  width: 100%;
   margin: 5px auto;
-  background-color: rgba(173, 210, 176, 1);
-  border: 2px solid rgb(192, 133, 23);
+  padding: auto;
+  background-image: linear-gradient($bgNav);
+  text-align: center;
 }

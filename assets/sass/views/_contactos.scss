@@ -9,3 +9,15 @@
 .enviar {
   border-radius: 2px;
 }
+
+@each $red, $color in $redes {
+  .red--#{$red} {
+      background: $color;
+      &:hover {
+          background: white;
+          .red__nombre {
+              color: $color;
+          }
+      }
+  }
+}

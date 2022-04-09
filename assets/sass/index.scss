@@ -1,19 +1,23 @@
 /*IMPORTS*/
 
 /*MISC*/
-@import './sass/misc/normalize';
-@import './sass/misc/titulos';
-@import './sass/misc/animations';
+@import './misc/variables';
+@import './misc/mixins';
+@import './misc/normalize';
+@import './misc/titulos';
+@import './misc/animations';
+
 /*PARTIAL*/
-@import './sass/partials/header';
-@import './sass/partials/footer';
+@import './partials/footer';
+@import './partials/header';
+
 /*VIEWS*/
-@import './sass/views/contactos';
-@import './sass/views/tipos';
-@import './sass/views/cuidados';
-@import './sass/views/galeria';
-@import './sass/views/home';
-@import './sass/views/libros';
-@import './sass/views/videos';
+@import './views/tipos';
+@import './views/cuidados';
+@import './views/contactos';
+@import './views/galeria';
+@import './views/home';
+@import './views/libros';
+@import './views/videos';
 
 

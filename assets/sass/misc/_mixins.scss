@@ -1,0 +1,13 @@
+@mixin flex ($direccion: row, $posicion: relative, $alinear: center) {
+    display: flex;
+    flex-direction: $direccion;
+    position: $posicion;
+    align-items: $alinear;
+}
+/*
+@mixin flexColum ($direccion: column, $alinear: center) {
+    display: flex;
+    flex-direction: $direccion;
+    align-items: $alinear;
+}
+*/
