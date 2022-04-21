@@ -68,7 +68,7 @@ body {
 /*FOOTER*/
 .pie {
   width: 100%;
-  margin: 5px auto;
+  margin: 15px auto;
   padding: auto;
   background-image: linear-gradient(#65ac6a, #d9f5d4);
   text-align: center;
@@ -80,7 +80,7 @@ nav {
   background-image: linear-gradient(#65ac6a, #d9f5d4);
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  position: sticky; }
+  font-size: 1.3rem; }
   nav ul {
     list-style: none; }
   nav .dropdown-menu {
@@ -95,19 +95,20 @@ nav {
   column-gap: 1em;
   margin: 20px 20px;
   padding: 60px;
-  font-size: 25px;
+  font-size: 1.4em;
   align-items: center; }
 
 .conTallo,
 .sinTallo,
 .cactus,
 .colgantes {
-  margin: 20px 40px;
+  margin: 50px 50px;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  font-size: 1.3em; }
 
 .card {
-  background-color: #d1f5f5; }
+  background-color: #e5f1e5; }
 
 @media screen and (max-width: 375px) {
   .titulos, .tituloSecundario, .tituloTercero, .caracteristicas, .imagen, .container {
@@ -148,7 +149,8 @@ nav {
 
 .dudas {
   background-color: #e5f1e5;
-  padding: 0.1rem; }
+  padding: 0.1rem;
+  margin: 1rem; }
 
 .caja {
   max-width: 1170px;

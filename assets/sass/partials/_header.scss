@@ -4,15 +4,16 @@ nav {
     background-image: linear-gradient($bgNav);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: sticky;
+    font-size: 1.3rem;
 
     ul {
         list-style: none;
     }
-.dropdown-menu{
-    background-color: #e6f7e7;
 
-}
+    .dropdown-menu {
+        background-color: #e6f7e7;
+
+    }
 }
 
 
