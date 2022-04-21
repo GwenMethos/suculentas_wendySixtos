@@ -3,65 +3,69 @@ nav {
     margin: 15px auto;
     background-image: linear-gradient($bgNav);
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
 
     ul {
         list-style: none;
     }
+.dropdown-menu{
+    background-color: #e6f7e7;
+
+}
 }
 
 
-.menu {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 22px;
+// .menu {
+//     font-family: Georgia, "Times New Roman", Times, serif;
+//     font-size: 22px;
 
-    >a{
-      text-decoration: none;
-    }
+//     >a{
+//       text-decoration: none;
+//     }
 
-    >li{
-        position: relative;
-        display: inline-block;
+//     >li{
+//         position: relative;
+//         display: inline-block;
 
-        >a{
-            display: flex;
-            text-decoration: none;
-            padding: 10px 10px;
-            color: chocolate;
-            
-            &:hover{
-                color: blanchedalmond;
-            }
+//         >a{
+//             display: flex;
+//             text-decoration: none;
+//             padding: 10px 10px;
+//             color: chocolate;
 
-          }
+//             &:hover{
+//                 color: blanchedalmond;
+//             }
 
-          &:hover .subMenu {
-            display: block;
-          }
-  }
+//           }
 
-  
+//           &:hover .subMenu {
+//             display: block;
+//           }
+//   }
 
 
-  .subMenu {
-    position: absolute;
-    width: 100%;
-    display: none;
-    background-color: #e6f7e7;
-    min-width: 140px;
-
-    >li >a {
-      text-decoration: none;
-      text-align: start;
-
-        & a {
-          display: block;
-          padding: 7px;
-        }
-            
-    }
-       
-
-    }
-  }
 
 
+//   .subMenu {
+//     position: absolute;
+//     width: 100%;
+//     display: none;
+//     background-color: #e6f7e7;
+//     min-width: 140px;
+
+//     >li >a {
+//       text-decoration: none;
+//       text-align: start;
+
+//         & a {
+//           display: block;
+//           padding: 7px;
+//         }
+
+//     }
+
+
+//     }
+//   }

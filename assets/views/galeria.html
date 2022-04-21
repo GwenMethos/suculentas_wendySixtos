@@ -18,7 +18,62 @@
 
 <body>
   <header>
-    <nav class="navegacion">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html"><img class="iconoHome" src=" ../image/sucIconNav.ico" alt="Home" />Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav mx-auto">
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href=""></a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="tipos.html" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Tipos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item"
+                  href="../views/tipos.html#cara">Característica</a></li>
+                <li><a class="dropdown-item" href="../views/tipos.html#tallo">Tallo</a></li>
+                <li><a class="dropdown-item" href="../views/tipos.html#sTallo">Sin Tallo</a></li>
+                <li><a class="dropdown-item" href="../views/tipos.html#cactus">Cactus</a></li>
+                <li><a class="dropdown-item" href="../views/tipos.html#colgantes">Colgantes</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="cuidados.html">Cuidados</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galerias</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="libros.html">Libros</a>
+            </li>
+
+             <li class="nav-item">
+              <a class="nav-link" href="videos.html">Videos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <nav class="navegacion">
       <ul class="menu">
         <li><a href="tipos.html">Tipos</a>
           <ul class="subMenu">
@@ -42,11 +97,11 @@
         <li><a href="contacto.html">Contacto</a></li>
 
       </ul>
-    </nav>
-    <h1 class="titulos">Galeria De Una Bonita Suculenta</h1>
+    </nav> -->
+
 
   </header>
-
+  <h1 class="titulos">Galeria De Una Bonita Suculenta</h1>
   <main class="galery">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -73,17 +128,22 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../image/conTallo/echeveriaElegans.jpeg" class="d-block w-100" alt="...">
+          <img src="../image/conTallo/echeveria.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Echeveri</h5>
             <p>Echeveria Elegans</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="../image/conTallo/echeveriaLaui.jpeg" class="d-block w-100" alt="...">
+          <img src="../image/conTallo/img1.jpeg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Echeveri</h5>
-            <p>Echeveria Lauis</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../image/conTallo/img2.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Echeveri</h5>
           </div>
         </div>
       </div>
@@ -103,6 +163,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
+
+  
   <footer class="pie">
     <p>TODOS LOS DERECHOS RESERVADOS</p>
   </footer>
