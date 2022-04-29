@@ -1,7 +1,118 @@
-.galery{
+// .galery{
 
-    font-size: 23px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
+//     font-size: 23px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: start;
+//   }
+
+
+.galeriaTallo {
+  padding-bottom: 3em;
+  padding-top: 1em;
+  font-family: 'Poppins', sans-serif;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 160px;
+  gap: .8em;
+  grid-template-areas:
+    "img1 img2 img3 img4"
+    "img1 img2 img3 img4"
+    "img5 img6 img8 img7"
+    "img5 img9 img10 img7"
+  ;
+
+  .galeriaImg1 {
+    grid-area: img1;
   }
+
+  .galeriaImg2 {
+    grid-area: img2;
+  }
+
+  .galeriaImg3 {
+    grid-area: img3;
+  }
+
+  .galeriaImg4 {
+    grid-area: img4;
+  }
+
+  .galeriaImg5 {
+    grid-area: img5;
+  }
+
+  .galeriaImg6 {
+    grid-area: img6;
+  }
+
+  .galeriaImg7 {
+    grid-area: img7;
+  }
+
+  .galeriaImg8 {
+    grid-area: img8;
+  }
+
+  .galeriaImg9 {
+    grid-area: img9;
+  }
+
+  .galeriaImg10 {
+    grid-area: img10;
+  }
+
+  .galeriaImagen {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+}
+
+.galeriaImagen::before {
+  content: "";
+  transition: transform .2s;
+  transform: scaleY(0);
+}
+
+.galeriaImagen:hover::before {
+  content: "Echeveria";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(180, 245, 209, 0.534);
+
+  transform: scaleY(1);
+}
+
+
+.galeria-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:375px) {
+
+  .galeriaTallo {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "img1 img2 "
+      "img3 img4"
+      "img5 img5"
+      "img5 img5"
+      "img7 img7"
+      "img7 img7"
+      "img6 img8"
+      "img9 img10"
+    ;
+  }
+}
