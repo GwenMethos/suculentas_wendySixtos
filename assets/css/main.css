@@ -68,11 +68,59 @@ body {
 /*FOOTER*/
 .pie {
   width: 100%;
-  margin: 15px auto;
-  padding: auto;
-  background-image: linear-gradient(#65ac6a, #d9f5d4);
-  text-align: center;
-  margin-top: auto; }
+  margin-top: auto;
+  background-image: linear-gradient(#65ac6a, #d9f5d4); }
+  .pie .grupoUno {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 25px 0px;
+    justify-content: center;
+    font-size: 1em; }
+    .pie .grupoUno .caja1 {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      .pie .grupoUno .caja1 h6 {
+        color: #1a1919;
+        margin-bottom: 25px;
+        font-size: 1.5em; }
+      .pie .grupoUno .caja1 p {
+        color: #efefef;
+        margin-bottom: 5px; }
+    .pie .grupoUno .redSocial a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: #050505;
+      margin-right: 10px;
+      background-color: #36b9ca;
+      text-align: center;
+      transition: all 300ms ease; }
+      .pie .grupoUno .redSocial a :hover {
+        color: #0044ff; }
+  .pie .grupoDos {
+    padding: 15px 10px;
+    text-align: center;
+    color: #181616; }
+    .pie .grupoDos small {
+      font-size: 15px; }
+
+@media screen and (max-width: 375px) {
+  .pie .grupoUno {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 35px 0px;
+    font-size: .7em; } }
 
 nav {
   width: 90%;
