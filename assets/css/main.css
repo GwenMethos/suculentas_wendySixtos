@@ -321,10 +321,67 @@ nav {
   height: 100%;
   object-fit: cover; }
 
+.galeria {
+  font-family: 'Segoe UI', Tahoma; }
+  .galeria h3 {
+    text-align: center; }
+
+.contenedorImagenes {
+  display: flex;
+  width: 81%;
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 4px; }
+  .contenedorImagenes .imagenSin {
+    position: relative;
+    width: 32%;
+    height: auto;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75); }
+    .contenedorImagenes .imagenSin .img {
+      max-width: 100%;
+      object-fit: cover; }
+  .contenedorImagenes .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(47, 241, 135, 0.534);
+    width: 100%;
+    height: 0;
+    transition: 1s ease;
+    overflow: hidden; }
+    .contenedorImagenes .overlay h5 {
+      color: #fff;
+      font-size: 30px;
+      top: 50%;
+      left: 50%;
+      text-align: center; }
+
+.imagenSin:hover .overlay {
+  height: 100%;
+  cursor: pointer; }
+
+.cactus h3 {
+  text-align: center; }
+
+.colgantes2 h5 {
+  align-items: center; }
+
 @media (max-width: 375px) {
   .galeriaTallo {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "img1 img2 " "img3 img4" "img5 img5" "img5 img5" "img7 img7" "img7 img7" "img6 img8" "img9 img10"; } }
+
+@media (max-width: 375px) {
+  .contenedorImagenes {
+    width: 91%;
+    flex-direction: column;
+    align-items: center; }
+    .contenedorImagenes .overlay {
+      width: 100%; }
+    .contenedorImagenes .imagenSin {
+      width: 70%; } }
 
 main {
   display: flex;
